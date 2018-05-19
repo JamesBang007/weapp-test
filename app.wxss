@@ -1,0 +1,109 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 5px;
+  box-sizing: border-box;
+}
+
+.NavText{ width: 100%; height: 40px; line-height: 40px; font-size: 16px; color: #0565C8; text-align: center; margin: 10px 0; border: 1px solid #0565C8;}
+
+
+.myform {
+  margin-bottom: 16rpx;
+  padding: 16rpx 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+/*预约 new*/
+
+.myform {
+  padding: 15rpx;
+  background: #fff;
+}
+
+.myform .tit {
+  margin: 10px auto;
+  padding-left: 40px;
+  width: 240px;
+  height: 40px;
+  background: url(http://m.enjoy16.cn/static17/baozhang.jpg) no-repeat;
+  background-size: 35px;
+}
+
+.myform .tit .h2 {
+  margin-bottom: 4px;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.myform .tit p {
+  line-height: 12px;
+  font-size: 12px;
+}
+
+.myform .fTitle {
+  height: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+
+.myform .fTitle i {
+  padding-left: 5px;
+  padding-top: 5px;
+  color: #fe3434;
+  font-size: 12px;
+}
+
+.myform .fInput {
+  margin-bottom: 10px;
+}
+
+.myform .fInput input {
+  padding: 10rpx;
+  width: 700rpx;
+  height: 24px;
+  line-height: 24px;
+  font-size: 15px;
+  border: 1px solid #d3d3d3;
+}
+
+.myform .fRadio {
+  height: 26px;
+  line-height: 26px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.myform .fRadio .fml20 {
+  margin-left: 20px;
+}
+
+.myform .fRadio radio {
+  vertical-align: middle;
+}
+
+.myform .submit {
+  margin-bottom: 5px;
+  width: 720rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #ff61ae;
+  border-radius: 5px;
+  border: 1px solid #ff61ae;
+}
+
+.myform button[disabled][type="default"] {
+  color: #fff;
+  border: 1px solid #ff61ae;
+}

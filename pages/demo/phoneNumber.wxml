@@ -1,0 +1,12 @@
+<!--pages/demo/phoneNumber.wxml-->
+<text>获取微信用户绑定的手机号</text>
+
+<view>
+  <text></text>
+  <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">手机号</button>
+</view>
+<text>--</text>
+
+<view>
+  <text></text>
+</view>

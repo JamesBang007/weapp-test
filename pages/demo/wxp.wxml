@@ -1,0 +1,35 @@
+
+<!--pages/line/wxp.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view class="wxParse topicList">
+
+  <!--
+  <template is="wxParse" data="{{wxParseData:bindArticle.nodes}}" />
+  <template is="wxParse" data="{{wxParseData:bindArticle2.nodes}}" /> 
+-->
+  <template is="wxParse" data="{{wxParseData:day0_0.nodes}}" />
+
+  <!--template
+  <block wx:for="{{TemArray}}" wx:key="">
+    <view class="classname">
+      {{index}}:
+      <template is="wxParse" data="{{wxParseData:item}}" />
+    </view>
+  </block>-->
+</view>
+<view wx:for="{{array}}"> {{item}} </view>
+
+<!--line-->
+<block wx:for="{{ showData.linetext }}" wx:for-index="i" wx:for-item="day" wx:key="linetext">
+  <view class="day" wx:if="{{ i < showData.linetext.length-1 }}">
+    <view class="title">第{{ i+1 }}天：{{day.title}}</view>
+    <block wx:for="{{ day.activity }}" wx:for-index="j" wx:for-item="activity" wx:key="activity">
+      <view class="activity" wx:if="{{ j < day.activity.length-1 }}">
+        <view class="actyTit">{{activity.title}}</view>
+
+        <!--<template is="wxParse" data="{{wxParseData:article0_0.nodes}}"/>-->
+        {{(i+'_'+j)}} {{'article'+(i+'_'+j)+'.nodes'}}
+      </view>
+    </block>
+  </view>
+</block>

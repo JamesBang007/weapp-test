@@ -1,0 +1,4 @@
+<!--pages/ajax/ajax.wxml-->
+<text>pages/ajax/ajax.wxml</text>
+<view wx:for="{{listData}}"> {{index}} {{item.id}} {{item.title}} </view>
+<view wx:for="{{array}}"> {{item}} </view>

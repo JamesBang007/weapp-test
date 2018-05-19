@@ -1,0 +1,25 @@
+<!--pages/demo/userinfo.wxml-->
+<text>pages/demo/userinfo.wxml</text>
+<!--
+一、小程序:
+-->
+
+<view>
+  <text>1、使用 button 组件，并将 open-type 指定为 getUserInfo 类型，获取用户基本信息。</text>
+  <!--
+      详情参考文档:
+      https://developers.weixin.qq.com/miniprogram/dev/component/button.html
+  -->
+  <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGetUserInfo">获取用户信息</button>
+</view>
+<text>--</text>
+<view>
+  <text>2、使用 open-data 组件，展示用户基本信息。</text>
+  <!--
+      详情参考文档:
+      https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html
+ -->
+ 
+ <open-data type="userAvatarUrl"></open-data>
+ <open-data type="userNickName"></open-data>
+</view>

@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <view class='NavText'>
+    <navigator url="/pages/index/wxp" open-type="navigate" hover-class="navigator-hover">WXP</navigator>
+  </view>
+
+  <view class='NavText'>
+    <navigator url="/pages/demo/sview" open-type="navigate" hover-class="navigator-hover">scroll-view 可滚动视图</navigator>
+  </view>
+
+  <view class='NavText'>
+    <navigator url="/pages/index/scene?id=1" open-type="navigate" hover-class="navigator-hover">小程序码</navigator>
+  </view>
+
+
+  <view class='NavText'>
+    <navigator url="/pages/demo/userinfo" open-type="navigate" hover-class="navigator-hover">getUserInfo</navigator>
+  </view>
+
+
+  <view class='NavText'>
+    <navigator url="/pages/demo/phoneNumber" open-type="navigate" hover-class="navigator-hover">getPhoneNumber</navigator>
+  </view>
+
+
+
+
+</view>

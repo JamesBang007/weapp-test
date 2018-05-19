@@ -1,0 +1,12 @@
+/* pages/demo/sview.wxss */
+
+.section__title{ line-height: 30px; font-size: 14px;}
+scroll-view{
+    height: 500rpx;overflow: hidden; margin-bottom: 10px;
+}
+scroll-view view{ width: 750rpx; height: 500rpx;}
+scroll-view .bc_green{ background-color: green;}
+scroll-view .bc_red{ background-color: red;}
+scroll-view .bc_yellow{ background-color: yellow;}
+scroll-view .bc_blue{ background-color: blue;}
+.btn-area{}

@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/at",
+    "pages/index/wxp",
+    "pages/index/scene",
+    "pages/demo/wxp",
+    "pages/demo/sview",
+    "pages/logs/logs",
+    "pages/ajax/ajax",
+    "pages/demo/date",
+    "pages/demo/userinfo",
+    "pages/demo/phoneNumber"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

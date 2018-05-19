@@ -1,0 +1,30 @@
+
+<!--pages/index/at.wxml-->
+<text>pages/index/at.wxml</text>
+
+<!--预约-->
+<view class="myform mb10">
+  <view class="tit">
+    <view class="h2">新人专享预约大礼包</view>
+    <view>ONLINE BOOKING SEND PREMIUM GIFT</view>
+  </view>
+  <form bindsubmit="formSubmit" report-submit="ture">
+    <view class="fTitle">您的姓名
+      <i>*</i>
+    </view>
+    <view class="fInput">
+      <input name="uname" placeholder="姓名" />
+    </view>
+    <view class="fTitle">您接收套系的手机
+      <i>*</i>
+    </view>
+    <view class="fInput">
+      <input name="telephone" placeholder="手机号" />
+    </view>
+    <radio-group name="radioGroup" class="fRadio" bindchange="radioChange">
+      <radio value="婚纱照" checked="ture" />婚纱照
+      <radio value="艺术照" class="fml20" />艺术照
+    </radio-group>
+    <button formType="submit" class="submit" disabled="{{subDisabled}}">领取礼包</button>
+  </form>
+</view>
