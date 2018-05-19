@@ -1,0 +1,24 @@
+<!--pages/demo/openid.wxml-->
+<text>pages/demo/openid.wxml</text>
+<!--
+小程序•小故事(6)——微信登录能力优化
+https://mp.weixin.qq.com/s/FTVGVXHSWPlYN1oQTzj-mA
+
+
+简单的开发建议
+<text>1、当用户打开小程序时访问第一个页面时，先通过 wx.login，获取用户 openID 。这时无需弹框授权，开发者拿到 openID 可以建立自身的帐号 ID。</text>
+<text>2、在第一步中，拿到 openID 后，判断是新用户还是老用户。如果是老用户，可以直接登录；如果是新用户，可先在小程序首页展示你的信息服务，让用户对这个小程序有大概的了解，再引导用户进行下一步的操作。</text>
+<text>3、当需要获取用户头像昵称的时候，对用户展示一个登录页面，这个页面只有一个最重要的操作，引导用户进行登录。</text>
+-->
+<view>
+
+  <view>小程序登录</view>
+
+  <view>1、小程序调用wx.login() 获取 临时登录凭证code ，并回传到开发者服务器。</view>
+
+  <view>2、开发者服务器以code换取 用户唯一标识openid 和 会话密钥session_key。</view>
+
+  <view>之后开发者服务器可以根据用户标识来生成自定义登录态，用于后续业务逻辑中前后端交互时识别用户身份。</view>
+
+  
+</view>

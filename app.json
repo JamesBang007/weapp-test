@@ -9,6 +9,7 @@
     "pages/logs/logs",
     "pages/ajax/ajax",
     "pages/demo/date",
+    "pages/demo/openid",
     "pages/demo/userinfo",
     "pages/demo/phoneNumber"
   ],

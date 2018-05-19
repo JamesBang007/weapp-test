@@ -30,6 +30,10 @@
     <navigator url="/pages/demo/phoneNumber" open-type="navigate" hover-class="navigator-hover">getPhoneNumber</navigator>
   </view>
 
+  <view class='NavText'>
+    <navigator url="/pages/demo/openid" open-type="navigate" hover-class="navigator-hover">openId</navigator>
+  </view>
+
 
 
 
