@@ -1,4 +1,10 @@
 /**app.wxss**/
+page{
+  padding: 15px; width: auto; max-width: 100%; font-size: 14px; line-height: 1.5;
+}
+view{
+  margin: 5px 0
+}
 
 .container {
   height: 100%;
